@@ -1,0 +1,14 @@
+import { Hero } from './hero';
+
+export const HEROES: Hero[] = [
+  { id: 11, name: 'Mr. Nice', image: '/assets/images/Nice.jpg', details: 'Mr Nice[1] (US title Mr. Nice) is a 2010 British-Spanish crime-drama. Directed by Bernard Rose, Mr Nice is in part a biopic due to it being a loose film adaptation of Mr Nice, the 1997 cult autobiography by Howard Marks. The film features an ensemble cast starring Rhys Ifans as Howard Marks (with Marks himself giving Ifans instruction), along with David Thewlis, Omid Djalili and Jack Huston, with Crispin Glover and Chloë Sevigny.' },
+  { id: 12, name: 'Narco', image: '/assets/images/narcos.jpg', details: "Narcos is an American crime drama web television series created and produced by Chris Brancato, Carlo Bernard, and Doug Miro. Set and filmed in Colombia, seasons one and two are based on the story of drug kingpin Pablo Escobar, who became a billionaire through the production and distribution of cocaine, while also focusing on Escobar's interactions with drug lords, Drug Enforcement Administration (DEA) agents, and various opposition entities.[1][2] Season three picks up after the fall of Escobar and continues to follow the DEA as they go up against the rise of the infamous Cali Cartel." },
+  { id: 13, name: 'Bombasto', image: '/assets/images/Bombasto.jpg', details: 'A lone detective tracks down a psychotic killer through the filth ridden streets of Downtown, but his nemesis seems to be far more clever then he could have ever expected. ' },
+  { id: 14, name: 'Celeritas', image: '/assets/images/Celeritas.jpeg', details: 'Season 2 of the new and improved The Black List Table Reads with Franklin Leonard continues this week with the Sci-Fi/Drama earmovie Celeritas by screenwriter Kimberly Barrante. When a missing astronaut crash lands forty years after he launched having not aged a day, his elderly twin brother helps him escape the NASA scientists hunting him. As the government closes in, neither brother is who they claim to be. Our presentation stars Jake Abel, Justin Chatwin, Alexandra Daddario, Christine Estabrook, Matthew Del Negro, Kevin Weisman, Adam Grimes, Jose Pablo Cantillo, Matthew Jaeger, and Cooper Thornton' },
+  { id: 15, name: 'Magneto', image: '/assets/images/Magneta.jpg', details: 'Magneto is a fictional character appearing in American comic books published by Marvel Comics, commonly in association with the X-Men. Created by writer Stan Lee and artist Jack Kirby, the character first appears in The X-Men #1 (cover-dated Sept. 1963) as an adversary of the X-Men.' },
+  { id: 16, name: 'RubberMan', image: '/assets/images/RubberMan.jpg', details: '' },
+  { id: 17, name: 'Dynamo', image: '/assets/images/Dynama.jpg', details: '' },
+  { id: 18, name: 'Dr IQ', image: '/assets/images/DrIQ.JPG', details: '' },
+  { id: 19, name: 'Magma', image: '/assets/images/Magma.jpg', details: '' },
+  { id: 20, name: 'Tornado', image: '/assets/images/Tornado.jpg', details: '' }
+];

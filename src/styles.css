@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+/*Inclued bootstrap to use bootstrap design framwork*/
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+/*Inclued fontawsome to use web font icons*/
+@import "../node_modules/font-awesome/css/font-awesome.css";
+
+.hero_list_wrp{ padding-left: 13px;}
+.nav li{ margin-right: 10px}
+.main_wrp {margin-top: 68px}

@@ -1,0 +1,28 @@
+<nav class="navbar navbar-dark bg-primary fixed-top">
+    <div class="container">
+        <ul class="nav">
+            <li class="nav-item">
+                <a routerLink="/dashboard"><button type="button" class="btn btn-success"><i class="fa fa-tachometer"></i> Dashboard</button></a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/heroes"><button type="button" class="btn btn-success"><i class="fa fa-users"></i> Heroes</button></a>
+            </li>
+          </ul>
+
+    </div>
+</nav>
+
+<div class="container main_wrp">
+
+  <h1>{{title}}</h1>
+
+  <router-outlet></router-outlet>
+
+  <div class="row">
+        <div class="col-sm-12 col-md-12">
+                <app-messages></app-messages>
+        </div>
+      
+  </div>
+
+</div>

@@ -1,0 +1,15 @@
+<button (click)="goBack()"><i class="fa fa-arrow-left" aria-hidden="true"></i> back</button>
+
+<div *ngIf="hero">
+    <div class="row">
+        <div class="col-sm-5">
+            <h2>{{ hero.name | uppercase }} Details</h2>
+            <span class="badge badge-primary">ID: {{hero.id}}</span>
+            <p>{{hero.details}}</p>
+        </div>
+        <div class="col-sm-7"><img src="{{hero.image}}" class="float-left img-fluid img-thumbnail"></div>
+    </div>
+
+  
+</div>
+
